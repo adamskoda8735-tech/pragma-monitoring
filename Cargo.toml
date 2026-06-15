@@ -79,6 +79,9 @@ tracing-subscriber = { version = "0.3.18", features = [
 [patch.crates-io]
 size-of = { git = "https://github.com/astraly-labs/size-of", branch = "main" }
 
+[build-dependencies]
+pragma-telemetry = { version = "0.1.0", registry = "pragma" }
+
 [dev-dependencies]
 rstest = "0.18.2"
 mockall = "0.13.1"
