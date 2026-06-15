@@ -50,6 +50,7 @@ url = "2.5.0"
 uuid = { version = "1.4", features = ["fast-rng", "v4", "serde"] }
 # Pragma crates
 evian = { version = "0.7.33", registry = "pragma", features = ["pragma_oracle"] }
+pragma-telemetry = { version = "0.1.0", registry = "pragma" }
 
 # Additional dependencies for evian
 anyhow = "1.0"
