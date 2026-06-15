@@ -1,6 +1,4 @@
-// Internal telemetry
-extern crate pragma_telemetry;
-use pragma_telemetry as _;
+use pragma_telemetry::metrics;
 
 extern crate diesel;
 extern crate dotenv;
